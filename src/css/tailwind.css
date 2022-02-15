@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .attribution {
+        @apply text-center text-xs;
+    }
+    .number-btn {
+        @apply border-b-4 py-3 text-3xl rounded-md;
+    }
+    .dell-btn {
+        @apply text-white rounded-md text-lg border-b-4 py-3;
+    }
+    .result-btn {
+        @apply text-white rounded-md border-b-4 py-3 text-lg;
+    }
+} 
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+}
